@@ -13,7 +13,7 @@ namespace LedPlugin {
      * @param num 表示したい数値, Max 31
      * @param col 表示を開始する列, col:0
      */
-    //% block
+    //% block="1列に2進数で %num の値を %col の列から表示する"
     export function DisplayBit5(num: number, col: number) {
 
         let hoge = num
@@ -33,7 +33,7 @@ namespace LedPlugin {
      * @param num 表示したい数値, Max 1023
      * @param col 表示を開始する列, col:0
      */
-    //% block
+    //% block="2列に2進数で %num の値を %col の列から表示する"
     export function DisplayBit10(num: number, col: number) {
         let hoge = num
         //一旦Ledの消去
@@ -59,7 +59,7 @@ namespace LedPlugin {
      * @param num 表示したい数値, Max 32767
      * @param col 表示を開始する列, col:0
      */
-    //% block
+    //% block="3列に2進数で %num の値を %col の列から表示する"
     export function DisplayBit15(num: number, col: number) {
         let hoge = num
         //一旦Ledの消去
@@ -91,7 +91,7 @@ namespace LedPlugin {
      * @param num 表示したい数値, Max 1048575
      * @param col 表示を開始する列, col:0
      */
-    //% block
+    //% block="4列に2進数で %num の値を %col の列から表示する"
     export function DisplayBit20(num: number, col: number) {
         let hoge = num
         //一旦Ledの消去
@@ -129,7 +129,7 @@ namespace LedPlugin {
      * @param num 表示したい数値, Max 33554431
      * @param col 表示を開始する列, col:0
      */
-    //% block
+    //% block="5列に2進数で %num の値を %col の列から表示する"
     export function DisplayBit25(num: number, col: number) {
         let hoge = num
         //一旦Ledの消去
