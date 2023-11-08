@@ -1,4 +1,4 @@
-// By Takashi Fukui
+// By Ros
 //変数を2進数でLEDに表示するスクリプト
 
 /**
